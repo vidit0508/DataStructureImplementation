@@ -1,6 +1,10 @@
 package com.linked.list;
 
-import javax.sound.sampled.ReverbType;
+/**
+ * 
+ * @author viditsharma01 This class implements Linked List addition and delete
+ *         methods
+ */
 
 public class LinkedListImplememtation {
 
@@ -127,7 +131,7 @@ public class LinkedListImplememtation {
 			tnode = tnode.nextNode;
 		}
 	}
-	
+
 	public void printList(Node tnode) {
 		while (tnode != null) {
 			System.out.print(tnode.data + " ");

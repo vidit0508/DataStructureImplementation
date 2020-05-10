@@ -1,5 +1,10 @@
 package com.linked.list;
 
+/**
+ * 
+ * @author viditsharma01 This class implements Linked List reversal methods
+ */
+
 public class ReversingLinkedList {
 
 	static Node head;
@@ -66,11 +71,10 @@ public class ReversingLinkedList {
 
 		if (node == null)
 			return;
-		
+
 		printReverseListRecursively(node.nextNode);
-		
+
 		System.out.print(node.data + " ");
-		
 
 	}
 
@@ -90,7 +94,7 @@ public class ReversingLinkedList {
 		System.out.println();
 		System.out.println("print linked list recursively.");
 		list.printListRecursively(head);
-		
+
 		System.out.println("print reversed linked list recursively.");
 		list.printReverseListRecursively(head);
 	}

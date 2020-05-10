@@ -1,5 +1,11 @@
 package com.doubly.linked.list;
 
+/**
+ * 
+ * @author viditsharma01 This class implements Doubly Linked List addition
+ *         methods
+ */
+
 public class DoublyLinkedAdditionImpl {
 
 	Node head;
@@ -158,13 +164,13 @@ public class DoublyLinkedAdditionImpl {
 		DoublyLinkedAdditionImpl dll = new DoublyLinkedAdditionImpl();
 
 		dll.append(6);
-		
+
 		dll.push(7);
-		
+
 		dll.push(1);
-		
+
 		dll.append(4);
-		
+
 		dll.insertAfter(dll.head.next, 8);
 
 		System.out.println("created doubly linked list.");

@@ -1,5 +1,10 @@
 package com.doubly.linked.list;
 
+/**
+ * 
+ * @author viditsharma01 This class implements Doubly Linked List delete method
+ */
+
 public class DoublyLinkedDeleteImpl {
 
 	Node head;
